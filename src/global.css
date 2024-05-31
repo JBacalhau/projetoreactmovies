@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    
+    body{
+        /*background-color: black;
+        color: white;*/
+        
+        @apply bg-brand-blue-700;
+        @apply text-white;
+
+    }
+}
